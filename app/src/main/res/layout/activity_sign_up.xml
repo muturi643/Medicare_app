@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.medicare.Sign_upActivity"
+    android:padding="10dp"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/pills"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textSize="25sp"
+        android:padding="18dp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:textColorHint="@color/black"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:padding="18dp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:textColorHint="@color/black"
+        android:drawablePadding="20dp"
+        android:layout_below="@+id/username"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/repassword"
+        android:hint="@string/re_password"
+        android:inputType="textPassword"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:padding="18dp"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_below="@+id/password"/>
+
+    <LinearLayout
+        android:id="@+id/myLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/repassword"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="170dp"
+            android:layout_height="62dp"
+            android:layout_margin="10dp"
+            android:id="@+id/btnsignup"
+            android:text="@string/signup"
+            android:textSize="30sp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/SkyBlue"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:layout_below="@id/myLinearLayout"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="@string/other"/>
+
+</RelativeLayout>

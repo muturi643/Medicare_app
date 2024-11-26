@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Medicare</string>
+    <string name="underlined_text"><u>Or Sign up</u></string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="re_password">Re password</string>
+    <string name="_24_7_health_support">24/7 Health Support</string>
+    <string name="login_btn">Login</string>
+    <string name="other">Already have an account?</string>
+    <string name="homepage">Homepage</string>
+    <string name="discover">Discover</string>
+    <string name="routine">Routine</string>
+    <string name="profile">Profile</string>
+    <string name="html_content">
+    "<html>"
+        "<head><title><u><b>Health Article</b></u>                                                  </title></head>"
+    "<body>"
+        "<h1><b>Understanding Health and Wellness</b>                                                   </h1>"
+        "<p>This is a sample health article content.It discusses the importance of maintaining a healthy lifestyle.                                                                               </p>"
+        "<p><b>Tips for a Healthy Lifestyle:</b>                                                                                 </p>"
+            "<ul>"
+            "<li>Eat a balanced diet.                                                                </li>"
+            "<li>Exercise regularly.                                                                              </li>"
+            "<li>Get enough sleep.                                                                     </li>"
+            "<li>Stay hydrated.                                                                      </li>"
+            "<li>Manage stress.                                                   </li>"
+            "</ul>"
+        "</body>"
+    "</html>"
+    </string>
+    <string name="SelectTime">Select Time</string>
+    <string name="details">Enter Your Medication</string>
+    <string name="name">Medication Name</string>
+    <string name="prescription">Prescription</string>
+    <string name="amount">Amount</string>
+    <string name="NumberOfTimesADay">Number Of Times A Day</string>
+    <string name="startTime">Start Time (HH:mm)</string>
+    <string name="date">Selected Date: </string>
+    <string name="streak">Current Streak: 0 days</string>
+    <string name="time">Selected Time: </string>
+    <string name="reminder">Set Reminder</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Delete Data </string>
+    <string name="edit">Edit Data </string>
+    <string name="save">Save </string>
+    <string name="prof">User</string>
+    <string name="logout">Log Out </string>
+</resources>

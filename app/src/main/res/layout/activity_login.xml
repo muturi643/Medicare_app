@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.medicare.LoginActivity"
+    android:background="@drawable/background"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/_24_7_health_support"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="35dp"/>
+
+    <TextView
+        android:id="@+id/Logintext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="150dp"
+        android:layout_below="@+id/name"/>
+
+    <EditText
+        android:id="@+id/usernamefld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textSize="22sp"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/baseline_person_24"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="20dp"
+        android:layout_below="@id/Logintext"/>
+
+    <EditText
+        android:id="@+id/passwordfld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textSize="22sp"
+        android:padding="18dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rounded_corner"
+        android:textColorHint="@color/black"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:layout_marginTop="60dp"
+        android:drawablePadding="20dp"
+        android:layout_below="@id/usernamefld"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="62dp"
+        android:layout_below="@id/passwordfld"
+        android:layout_marginTop="26dp"
+        android:backgroundTint="@color/SkyBlue"
+        android:text="@string/login_btn"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/other"
+        android:layout_below="@id/button"
+        android:textAlignment="center"
+        android:layout_marginTop="65dp"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:text="@string/underlined_text"/>
+
+
+</RelativeLayout>
